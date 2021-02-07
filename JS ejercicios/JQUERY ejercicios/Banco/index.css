@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    width: 30%;
+    height: 45%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+form{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10%;
+}
+input{
+    width:100% ;
+    height:25%;
+    text-align: center;
+    font-size: 1.2em;
+    outline: none;
+    border: 1px solid darkgrey;
+}
+input[type=Submit]{
+    width: 110%;
+    height: 30%;
+    background-color: #171717;
+    color: white;
+    outline: none;
+}
+#num_clave{
+    background-color: white;
+    width: 25%;
+    height: 30%;
+    border: 1px solid grey;
+    position: absolute;
+    top: 62%;
+    left: 37.5%;
+
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#num_clave > h1{
+    color: grey;
+    width: 100%;
+
+}
+.numeros{
+    width: 60px;
+    height: 60px;
+    margin: 0 15px;
+    border: 1px solid black;
+}

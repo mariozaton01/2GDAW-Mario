@@ -1,0 +1,6 @@
+{
+    "name": "mario/ej2",
+    "require": {
+        "monolog/monolog": "^2.2"
+    }
+}

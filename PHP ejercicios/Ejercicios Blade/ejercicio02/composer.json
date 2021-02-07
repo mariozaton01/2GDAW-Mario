@@ -1,0 +1,6 @@
+{
+    "name": "vagrant/ejercicio02",
+    "require": {
+        "duncan3dc/blade": "^4.10"
+    }
+}
